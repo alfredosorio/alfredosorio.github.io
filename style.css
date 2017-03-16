@@ -1,0 +1,248 @@
+/* BEGIN embed 'Suranna' font */
+@font-face {
+  font-family: 'Suranna';
+  src: local('Suranna'),
+       url('../fonts/suranna-v4-latin-regular.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+       url('../fonts/suranna-v4-latin-regular.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+/* END embed 'Suranna' font */
+
+* {
+  box-sizing: border-box;
+}
+
+section {
+  width: 100%;
+  min-width: 600px;
+  padding: 30px 15% 50px 15%;
+  display: table;
+  background-color: #D0D0D0;
+  height: 100vh;
+}
+
+.splash {
+  background: url("../images/background.png") no-repeat center center fixed;
+  background-size: cover;
+}
+
+.about_me {
+  background-color: #2B2B2B;
+}
+
+.contact {
+  background-color: #7F7F7F;
+}
+
+body {
+  margin: 0;
+  font-family: 'Roboto', sans-serif; font-size: 20px;
+  -webkit-font-smoothing: antialiased;
+}
+
+h1 {
+  font-family: 'Suranna';
+  font-weight: 100;
+  font-size: 60px;
+  color: #303030;
+  margin: 0;
+  height: 80px;
+
+}
+
+/* Links */
+h2 {
+  font-family: 'Suranna';
+  font-weight: 100;
+  font-size: 60px;
+  color: white;
+  margin: 0;
+  height: 80px;
+}
+
+h3 {
+  font-family: 'Suranna';
+  font-weight: 100;
+  font-size: 48px;
+  color: #7F7F7F;
+  margin: 0;
+  height: 80px;
+}
+
+.about_me img {
+  margin: 10%;
+}
+
+.work img {
+  margin: 0;
+  padding-top: 20px;
+}
+
+/* Remove all link styling & animate static-hover state */
+a {
+  color: inherit;
+  animation-name: animate_static;
+  animation-duration: 0.1s;
+  text-decoration: none;
+  text-align: center;
+}
+
+a:hover {
+  color: #303030;
+  animation-name: animate_hover;
+  animation-duration: 0.5s;
+  animation-direction: alternate;
+}
+
+p {
+  text-align: justify;
+  font-size: 24px;
+  color: white;
+  margin: 0px;
+}
+
+.work p {
+  text-align: center;
+}
+
+.splash h2 {
+  display: inline;
+}
+
+/* Non-hover link animation */
+@keyframes animate_static {
+  0% {
+    color: #303030;
+  }
+  100% {
+    color: inherit;
+  }
+}
+
+/* Hover link animation */
+@keyframes animate_hover {
+  0% {
+    color: inherit;
+  }
+  100% {
+    color: #303030;
+  }
+}
+
+/* BEGIN Navigation Arrow - Animate */
+.nav_arrow_dark a {
+  animation-name: flash_arrow;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+
+  font-family: 'Helvetica';
+  font-weight: 100;
+  font-size: 60px;
+  color: #303030;
+  margin: 0;
+  overflow: hidden;
+}
+
+.nav_arrow_light a {
+  animation-name: flash_arrow;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+
+  font-family: 'Helvetica';
+  font-weight: 100;
+  font-size: 60px;
+  color: white;
+  margin: 0;
+  overflow: hidden;
+}
+
+@keyframes flash_arrow {
+  0% {
+    opacity: 0;
+  }
+  70% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 100;
+  }
+}
+/* END Navigation Arrow - Animate */
+
+.logo {
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
+}
+
+.links {
+  display: table-row-group;
+  text-align: center;
+}
+
+.nav_arrow_dark, .nav_arrow_light {
+  display: table-footer-group;
+  text-align: center;
+}
+
+.about {
+  vertical-align: middle;
+}
+
+.content {
+  display: table-cell;
+  text-align: center;
+  position: relative;
+}
+
+.work {
+  vertical-align: middle;
+}
+
+.about_me .content {
+  vertical-align: middle;
+}
+
+
+/* BEGIN Work - Fading Slideshow */
+.item-1,
+.item-2,
+.item-3 {
+  position: absolute;
+	animation-duration: 20s;
+	animation-timing-function: ease-in-out;
+	animation-iteration-count: infinite;
+}
+
+.item-1{
+	animation-name: anim-1;
+}
+
+.item-2{
+	animation-name: anim-2;
+}
+
+.item-3{
+	animation-name: anim-3;
+}
+
+/* Divide 100 by (No. of Projects) to distribute transition timings */
+@keyframes anim-1 {
+	0% {opacity: 0;}
+  8.3%,25% {opacity: 100;}
+  33.33%, 100% {opacity: 0;}
+}
+
+@keyframes anim-2 {
+	0%, 33.33% {opacity: 0;}
+  41.63%, 58.29%  {opacity: 100;}
+  66.66%, 100% {opacity: 0;}
+}
+
+@keyframes anim-3 {
+	0%, 66.66% {opacity: 0;}
+  74.96%, 91.62% {opacity: 100;}
+  100% {opacity: 0;}
+}
+/* END Work - Scrolling Slideshow */
