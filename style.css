@@ -33,8 +33,12 @@ section {
   background-color: #7F7F7F;
 }
 
+.work {
+  background: url("../images/coderfactorymug.png") no-repeat center center fixed;
+  background-size: cover;
+}
+
 body {
-  margin: 0;
   font-family: 'Roboto', sans-serif; font-size: 20px;
   -webkit-font-smoothing: antialiased;
 }
@@ -69,7 +73,8 @@ h3 {
 }
 
 .about_me img {
-  margin: 10%;
+  margin: 5%;
+
 }
 
 .work img {
@@ -94,7 +99,7 @@ a:hover {
 }
 
 p {
-  text-align: justify;
+  text-align: center;
   font-size: 24px;
   color: white;
   margin: 0px;
@@ -198,6 +203,10 @@ p {
 
 .work {
   vertical-align: middle;
+}
+
+.linked_icons {
+  padding-top: 20%;
 }
 
 .about_me .content {
