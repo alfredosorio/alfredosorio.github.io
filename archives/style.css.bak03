@@ -37,7 +37,7 @@ section {
 }
 
 p {
-  font-size: 36px;
+  font-size: 2em;
   color: white;
 }
 
@@ -47,25 +47,25 @@ h1, h2, h3 {
 }
 
 h1, h2 {
-  font-size: 72px;
+  font-size: 60px;
   color: white;
 }
 
 h3 {
-  font-size: 50px;
+  font-size: 40px;
   color: #7F7F7F;
 }
 
 img {
-  margin: 80px 20px;
+  margin: 30px;
 }
 
 /* Remove all link styling & animate static-hover state */
 a {
   color: #2b2b2b;
-  text-decoration: none;
   animation-name: animate_static;
   animation-duration: 0.5s;
+  text-decoration: none;
 }
 
 a:hover {
@@ -136,19 +136,9 @@ a:hover {
   background-color: #6D25B2;
 }
 
-.nav_icons img {
-  height: 70px;
-}
+/* BEGIN Navigation Arrow */
 
-/* BEGIN Chevron Icons */
-
-.chevron_dark,
-.chevron_light {
-  position: absolute;
-  bottom: 0;
-}
-
-.chevron_dark a {
+.nav_arrow_dark a {
   animation-name: flash;
   animation-duration: 0.8s;
   animation-iteration-count: infinite;
@@ -160,7 +150,7 @@ a:hover {
   overflow: hidden;
 }
 
-.chevron_light a {
+.nav_arrow_light a {
   animation-name: flash;
   animation-duration: 0.8s;
   animation-iteration-count: infinite;
@@ -180,4 +170,4 @@ a:hover {
     opacity: 100;
   }
 }
-/* END Chevron Icons */
+/* END Navigation Arrow */
