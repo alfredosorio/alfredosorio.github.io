@@ -20,8 +20,9 @@ h1, h2 {
 }
 
 h1 {
-  font-size: 60px;
+  font-size: 68px;
   color: white;
+  margin-bottom: 40px;
 }
 
 h2 {
@@ -113,6 +114,10 @@ section {
   height: 40px;
 }
 
+/* Standards & Principles */
+.standards_and_principles {
+  background-color: #732439;
+}
 /* Work */
 .work {
   background: url("../images/coderfactorymug.png") no-repeat center center fixed;
