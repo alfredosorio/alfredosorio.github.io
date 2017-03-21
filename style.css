@@ -35,11 +35,11 @@ h3 {
   font-weight: bold;
   color: white;
   line-height: 200%;
-  font-size: 22px;
+  font-size: 24px;
 }
 
 p {
-  font-size: 22px;
+  font-size: 24px;
   color: white;
 }
 
@@ -51,6 +51,15 @@ img {
 a {
   color: #2b2b2b;
   text-decoration: none;
+}
+
+hr {
+  margin: 40px 0;
+}
+
+li {
+  color: white;
+  text-align: left;
 }
 
 /* Parent Container */
@@ -105,18 +114,48 @@ section {
   background-color: #0F5E7F;
 }
 
-.about_me img {
+.profile_photo img {
   margin: 80px 20px;
+  border-radius: 1000%;
+  border: 4px solid white;
+
+  -webkit-box-shadow: 0px 5px 14px 0px #000000;
+  -moz-box-shadow: 0px 5px 14px 0px #000000;
+  box-shadow: 0px 5px 14px 0px #000000;
 }
 
 .languages img {
   margin: 45px 25px;
-  height: 40px;
+  height: 70px;
 }
 
 /* Standards & Principles */
 .standards_and_principles {
   background-color: #732439;
+}
+
+/* Employment History */
+.employment_history {
+  background-color: #462B4F;
+}
+
+.employment_history img {
+  height: 80px;
+
+  border-radius: 5px 5px 5px 5px;
+  -moz-border-radius: 5px 5px 5px 5px;
+  -webkit-border-radius: 5px 5px 5px 5px;
+  border: 20px solid white;
+
+  -webkit-box-shadow: 0px 5px 14px 0px #000000;
+  -moz-box-shadow: 0px 5px 14px 0px #000000;
+  box-shadow: 0px 5px 14px 0px #000000;
+}
+
+/* Educational History */
+.educational_history {
+  background-color: #2A3254;
+  text-align: justify;
 }
 /* Work */
 .work {
@@ -131,7 +170,7 @@ section {
 
 .contact img {
   margin: 25px;
-  height: 40px;
+  height: 70px;
 }
 
 /* Nav Bar*/
