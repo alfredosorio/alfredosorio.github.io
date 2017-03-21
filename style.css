@@ -150,11 +150,18 @@ section {
 /* Educational History */
 .educational_history {
   background-color: #2A3254;
-  text-align: justify;
 }
 
 .educational_history h1 {
   text-align: center;
+}
+
+.educational_history img {
+  height: 180px;
+
+  -webkit-box-shadow: 0px 15px 60px -15px #000000;
+  -moz-box-shadow: 0px 15px 60px -15px #000000;
+  box-shadow: 0px 15px 60px -15px #000000;
 }
 
 /* Work */
