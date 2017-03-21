@@ -14,28 +14,6 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
-/* Parent Container */
-section {
-  width: 100%;
-  height: 100vh;
-  text-align: center;
-
-  /* Incorporate Flex */
-  display: -webkit-flex;
-  display: flex;
-
-  -webkit-align-items: center;
-  align-items: center;
-  -webkit-justify-content: center;
-  justify-content: center;
-
-  -webkit-flex-direction: column;
-  flex-direction: column;
-
-  /* Justify footer position */
-  position: relative;
-}
-
 p {
   font-size: 36px;
   color: white;
@@ -57,46 +35,46 @@ h3 {
 }
 
 img {
-  margin: 80px 20px;
+  margin: 0;
 }
 
 /* Remove all link styling & animate static-hover state */
 a {
   color: #2b2b2b;
   text-decoration: none;
-  animation-name: animate_static;
-  animation-duration: 0.5s;
 }
 
-a:hover {
-  color: white;
-  animation-name: animate_hover;
-  animation-duration: 0.5s;
-  animation-direction: alternate;
-}
+/* Parent Container */
+section {
+  width: 100%;
+  min-height: 85vh;
+  display:block;
+  overflow:auto;
+  text-align: center;
 
-/* Static link animation */
-@keyframes animate_static {
-  0% {
-    color: white;
-  }
-  100% {
-    color: #2b2b2b;
-  }
-}
+  /* Incorporate Flex */
+  display: -webkit-flex;
+  display: flex;
 
-/* Hover link animation */
-@keyframes animate_hover {
-  0% {
-    color: #2b2b2b;
-  }
-  100% {
-    color: white;
-  }
+  -webkit-align-items: center;
+  align-items: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+
+  -webkit-flex-direction: column;
+  flex-direction: column;
+
+  /* Justify footer position */
+  position: relative;
+
+  /* Content box shadow */
+  -webkit-box-shadow: inset 0px 15px 60px -15px #000000;
+  -moz-box-shadow: inset 0px 15px 60px -15px #000000;
+  box-shadow: inset 0px 15px 60px -15px #000000;
 }
 
 .content {
-  margin: 0 10%;
+  margin: 10vh;
 }
 
 .social {
@@ -117,12 +95,15 @@ a:hover {
   margin: 50px;
   font-family: 'Source Sans Pro';
   font-size: 2em;
-  text-transform: lowercase;
 }
 
 /* About Me */
 .about_me {
   background-color: #0F5E7F;
+}
+
+.about_me img {
+  margin: 80px 20px;
 }
 
 /* Work */
@@ -181,3 +162,29 @@ a:hover {
   }
 }
 /* END Chevron Icons */
+
+/* Nav Bar*/
+.top_nav {
+    position: fixed;
+    top: 0;
+    height: 80px;
+    width: 100%;
+    background-color: #2b2b2b;
+    overflow: hidden;
+
+    -webkit-box-shadow: 0px 15px 60px -15px #000000;
+    -moz-box-shadow: 0px 15px 60px -15px #000000;
+    box-shadow: 0px 15px 60px -15px #000000;
+
+    border-bottom: 1px solid #7b7b7b;
+}
+
+.top_nav img {
+  margin: 23px 30px;
+  height: 30px;
+  float: right;
+  display: inline-flex;
+  text-decoration: none;
+  color: white;
+  font-size: 30px;
+}
