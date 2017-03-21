@@ -65,7 +65,7 @@ li {
 /* Parent Container */
 section {
   width: 100%;
-  min-height: 85vh;
+  min-height: 100vh;
   display:block;
   overflow:auto;
   text-align: center;
@@ -85,7 +85,7 @@ section {
   /* Justify footer position */
   position: relative;
 
-  /* Content box shadow */
+  /* Section divider box shadow */
   -webkit-box-shadow: inset 0px 15px 60px -15px #000000;
   -moz-box-shadow: inset 0px 15px 60px -15px #000000;
   box-shadow: inset 0px 15px 60px -15px #000000;
@@ -142,11 +142,6 @@ section {
 .employment_history img {
   height: 80px;
 
-  border-radius: 5px 5px 5px 5px;
-  -moz-border-radius: 5px 5px 5px 5px;
-  -webkit-border-radius: 5px 5px 5px 5px;
-  border: 20px solid white;
-
   -webkit-box-shadow: 0px 5px 14px 0px #000000;
   -moz-box-shadow: 0px 5px 14px 0px #000000;
   box-shadow: 0px 5px 14px 0px #000000;
@@ -157,6 +152,11 @@ section {
   background-color: #2A3254;
   text-align: justify;
 }
+
+.educational_history h1 {
+  text-align: center;
+}
+
 /* Work */
 .work {
   background: url("../images/coderfactorymug.png") no-repeat center center fixed;
