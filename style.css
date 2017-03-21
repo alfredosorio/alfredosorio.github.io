@@ -7,35 +7,43 @@
 }
 
 body {
-  font-family: 'Source Sans Pro', sans-serif; font-size: 20px;
+  font-family: 'Source Sans Pro', sans-serif;
 
   /* Font antialiasing for all web browsers */
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
-p {
-  font-size: 36px;
-  color: white;
-}
-
-h1, h2, h3 {
+h1, h2 {
   font-family: 'Raleway';
   font-weight: 100;
 }
 
-h1, h2 {
-  font-size: 72px;
+h1 {
+  font-size: 60px;
   color: white;
 }
 
-h3 {
+h2 {
   font-size: 50px;
   color: #7F7F7F;
 }
 
+/* Subheading */
+h3 {
+  font-weight: bold;
+  color: white;
+  line-height: 200%;
+  font-size: 22px;
+}
+
+p {
+  font-size: 22px;
+  color: white;
+}
+
 img {
-  margin: 0;
+  margin: 20px;
 }
 
 /* Remove all link styling & animate static-hover state */
@@ -74,7 +82,7 @@ section {
 }
 
 .content {
-  margin: 10vh;
+  margin: 10vh 5vh;
 }
 
 .social {
@@ -91,12 +99,6 @@ section {
   display: inline-flex;
 }
 
-.links a {
-  margin: 50px;
-  font-family: 'Source Sans Pro';
-  font-size: 2em;
-}
-
 /* About Me */
 .about_me {
   background-color: #0F5E7F;
@@ -104,6 +106,11 @@ section {
 
 .about_me img {
   margin: 80px 20px;
+}
+
+.languages img {
+  margin: 45px 25px;
+  height: 40px;
 }
 
 /* Work */
@@ -117,51 +124,10 @@ section {
   background-color: #6D25B2;
 }
 
-.nav_icons img {
-  height: 70px;
+.contact img {
+  margin: 25px;
+  height: 40px;
 }
-
-/* BEGIN Chevron Icons */
-
-.chevron_dark,
-.chevron_light {
-  position: absolute;
-  bottom: 0;
-}
-
-.chevron_dark a {
-  animation-name: flash;
-  animation-duration: 0.8s;
-  animation-iteration-count: infinite;
-  animation-direction: alternate;
-
-  font-weight: 100;
-  font-size: 60px;
-  color: #303030;
-  overflow: hidden;
-}
-
-.chevron_light a {
-  animation-name: flash;
-  animation-duration: 0.8s;
-  animation-iteration-count: infinite;
-  animation-direction: alternate;
-
-  font-weight: 100;
-  font-size: 60px;
-  color: white;
-  overflow: hidden;
-}
-
-@keyframes flash {
-  0% {
-    opacity: 0;
-  }
-  100% {
-    opacity: 100;
-  }
-}
-/* END Chevron Icons */
 
 /* Nav Bar*/
 .top_nav {
