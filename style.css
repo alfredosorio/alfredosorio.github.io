@@ -22,7 +22,7 @@ h1, h2 {
 h1 {
   font-size: 68px;
   color: white;
-  margin-bottom: 40px;
+  margin-bottom: 80px;
 }
 
 h2 {
@@ -55,6 +55,11 @@ a {
 
 hr {
   margin: 40px 0;
+  opacity: 0.2;
+}
+
+ul {
+  list-style-type: none;
 }
 
 li {
@@ -115,7 +120,7 @@ section {
 }
 
 .profile_photo img {
-  margin: 80px 20px;
+  margin-bottom: 80px;
   border-radius: 1000%;
   border: 4px solid white;
 
@@ -166,8 +171,52 @@ section {
 
 /* Work */
 .work {
-  background: url("/images/backgrounds/work_bg.png") no-repeat center center fixed;
-  background-size: cover;
+  background-color: #122536;
+}
+
+/* Modal Styling */
+.modalDialog {
+	position: fixed;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	background: rgba(0,0,0,0.5);
+	z-index: 1;
+	opacity:0;
+	-webkit-transition: opacity 500ms ease-in;
+	-moz-transition: opacity 500ms ease-in;
+	transition: opacity 500ms ease-in;
+	pointer-events: none;
+}
+
+.modalDialog:target {
+	opacity:1;
+	pointer-events: auto;
+}
+
+.modalDialog div {
+	width: 80vw;
+	position: relative;
+	margin: 10% auto;
+	padding: 50px;
+	border-radius: 10px;
+	background: #2B2B2B;
+}
+
+.close {
+  position: absolute;
+  right: 24px;
+  top: 18px;
+}
+
+.github {
+  height: 50px;
+}
+
+.info_icon {
+  height: 50px;
+  margin-top: 50px;
 }
 
 /* Contact */
