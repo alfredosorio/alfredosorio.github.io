@@ -1,256 +1,485 @@
 @import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro');
-
 @import url('https://fonts.googleapis.com/css?family=Raleway:100');
-
 * {
-  margin: 0;
+    margin: 0;
 }
-
 body {
-  font-family: 'Source Sans Pro', sans-serif;
+    font-family: 'Source Sans Pro', sans-serif;
+    /* Font antialiasing for all web browsers */
 
-  /* Font antialiasing for all web browsers */
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
 }
-
-h1, h2 {
-  font-family: 'Raleway';
-  font-weight: 100;
-}
-
-h1 {
-  font-size: 68px;
-  color: white;
-  margin-bottom: 80px;
-}
-
+h1,
 h2 {
-  font-size: 50px;
-  color: #7F7F7F;
+    font-family: 'Raleway';
+    font-weight: 100;
 }
-
+h1 {
+    font-size: 24px;
+    color: white;
+    margin-bottom: 15px;
+}
+h2 {
+    font-size: 50px;
+    color: #7F7F7F;
+}
 /* Subheading */
+
 h3 {
-  font-weight: bold;
-  color: white;
-  line-height: 200%;
-  font-size: 25px;
+    font-weight: bold;
+    color: white;
+    line-height: 200%;
+    font-size: 14px;
 }
-
 p {
-  font-size: 25px;
-  color: white;
+    font-size: 14px;
+    color: white;
 }
-
 img {
-  margin: 20px;
+    margin: 20px;
 }
-
 /* Remove all link styling & animate static-hover state */
+
 a {
-  color: #2b2b2b;
-  text-decoration: none;
+    color: #2b2b2b;
+    text-decoration: none;
 }
-
 hr {
-  margin: 40px 0;
-  opacity: 0.2;
+    margin: 10px 0;
+    opacity: 0.2;
 }
-
 ul {
-  list-style-type: none;
+    list-style-type: none;
+    padding: 0 20px;
 }
-
 li {
-  color: white;
-  text-align: left;
+    color: white;
+    text-align: left;
 }
-
 /* Parent Container */
+
 section {
-  width: 100%;
-  min-height: 100vh;
-  display:block;
-  overflow:auto;
-  text-align: center;
-
-  /* Incorporate Flex */
-  display: -webkit-flex;
-  display: flex;
-
-  -webkit-align-items: center;
-  align-items: center;
-  -webkit-justify-content: center;
-  justify-content: center;
-
-  -webkit-flex-direction: column;
-  flex-direction: column;
-
-  /* Justify footer position */
-  position: relative;
-
-  /* Section divider box shadow */
-  -webkit-box-shadow: inset 0px 15px 60px -15px #000000;
-  -moz-box-shadow: inset 0px 15px 60px -15px #000000;
-  box-shadow: inset 0px 15px 60px -15px #000000;
-}
-
-.content {
-  margin: 10vh 5vw;
-}
-
-.social {
-  margin: 60px 30px;
-}
-
-/* Splash */
-.splash {
-  background: url("/images/backgrounds/splash_bg.png") no-repeat center center fixed;
-  background-size: cover;
-}
-
-.splash .links {
-  display: inline-flex;
-}
-
-/* About Me */
-.about_me {
-  background-color: #0F5E7F;
-}
-
-.profile_photo img {
-  margin-bottom: 80px;
-  border-radius: 1000%;
-  border: 4px solid white;
-
-  -webkit-box-shadow: 0px 15px 60px -15px #000000;
-  -moz-box-shadow: 0px 15px 60px -15px #000000;
-  box-shadow: 0px 15px 60px -15px #000000;
-}
-
-.languages img {
-  margin: 45px 25px;
-  height: 70px;
-}
-
-/* Standards & Principles */
-.standards_and_principles {
-  background-color: #732439;
-}
-
-/* Employment History */
-.employment_history {
-  background-color: #462B4F;
-}
-
-.employment_history img {
-  height: 80px;
-
-  -webkit-box-shadow: 0px 15px 60px -15px #000000;
-  -moz-box-shadow: 0px 15px 60px -15px #000000;
-  box-shadow: 0px 15px 60px -15px #000000;
-}
-
-/* Educational History */
-.educational_history {
-  background-color: #2A3254;
-}
-
-.educational_history h1 {
-  text-align: center;
-}
-
-.educational_history img {
-  height: 180px;
-
-  -webkit-box-shadow: 0px 15px 60px -15px #000000;
-  -moz-box-shadow: 0px 15px 60px -15px #000000;
-  box-shadow: 0px 15px 60px -15px #000000;
-}
-
-/* Work */
-.work {
-  background-color: #122536;
-}
-
-/* Modal Styling */
-.modalDialog {
-	position: fixed;
-	top: 0;
-	right: 0;
-	bottom: 0;
-	left: 0;
-	background: rgba(0,0,0,0.5);
-	z-index: 1;
-	opacity:0;
-	-webkit-transition: opacity 500ms ease-in;
-	-moz-transition: opacity 500ms ease-in;
-	transition: opacity 500ms ease-in;
-	pointer-events: none;
-}
-
-.modalDialog:target {
-	opacity:1;
-	pointer-events: auto;
-}
-
-.modalDialog div {
-	width: 80vw;
-	position: relative;
-	margin: 10% auto;
-	padding: 50px;
-	border-radius: 10px;
-	background: #2B2B2B;
-}
-
-.close {
-  position: absolute;
-  right: 24px;
-  top: 18px;
-}
-
-.github {
-  height: 50px;
-}
-
-.info_icon {
-  height: 50px;
-  margin-top: 50px;
-}
-
-/* Contact */
-.contact {
-  background-color: #610054;
-}
-
-.contact img {
-  margin: 25px;
-  height: 65px;
-}
-
-/* Nav Bar*/
-.top_nav {
-    position: fixed;
-    top: 0;
-    height: 130px;
     width: 100%;
-    background-color: #2b2b2b;
-    overflow: hidden;
+    min-height: 100vh;
+    display: block;
+    overflow: auto;
+    text-align: center;
+    /* Incorporate Flex */
 
+    display: -webkit-flex;
+    display: flex;
+    -webkit-align-items: center;
+    align-items: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-flex-direction: column;
+    flex-direction: column;
+    /* Justify footer position */
+
+    position: relative;
+    /* Section divider box shadow */
+
+    -webkit-box-shadow: inset 0px 15px 60px -15px #000000;
+    -moz-box-shadow: inset 0px 15px 60px -15px #000000;
+    box-shadow: inset 0px 15px 60px -15px #000000;
+}
+.wrapper {
+    margin: 10vh 5vw;
+}
+.social {
+    margin: 60px 30px;
+}
+/* Splash */
+
+.splash {
+    background: url("/images/backgrounds/splash_bg.png") no-repeat center center fixed;
+    background-size: cover;
+}
+.splash .links {
+    display: inline-flex;
+}
+.logo {
+    width: 180px;
+}
+/* About Me */
+
+.about_me {
+    background-color: #0F5E7F;
+}
+.profile_photo {
+    width: 100px;
+    margin-bottom: 30px;
+    border-radius: 1000%;
+    border: 2px solid white;
     -webkit-box-shadow: 0px 15px 60px -15px #000000;
     -moz-box-shadow: 0px 15px 60px -15px #000000;
     box-shadow: 0px 15px 60px -15px #000000;
-
-    border-bottom: 1px solid #7b7b7b;
 }
+.languages img {
+    margin: 10px 10px 20px 10px;
+    height: 22px;
+}
+/* Standards & Principles */
 
+.standards_and_principles {
+    background-color: #732439;
+}
+/* Employment History */
+
+.employment_history {
+    background-color: #462B4F;
+}
+.employment_history img {
+    height: 30px;
+    -webkit-box-shadow: 0px 8px 20px -5px #000000;
+    -moz-box-shadow: 0px 8px 20px -5px #000000;
+    box-shadow: 0px 8px 20px -5px #000000;
+}
+/* Educational History */
+
+.educational_history {
+    background-color: #2A3254;
+}
+.educational_history h1 {
+    text-align: center;
+}
+.educational_history img {
+    height: 70px;
+    -webkit-box-shadow: 0px 8px 20px -5px #000000;
+    -moz-box-shadow: 0px 8px 20px -5px #000000;
+    box-shadow: 0px 8px 20px -5px #000000;
+}
+/* Work */
+
+.work {
+    background-color: #122536;
+}
+/* Modal */
+
+.modalDialog {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: 1;
+    opacity: 0;
+    -webkit-transition: opacity 500ms ease-in;
+    -moz-transition: opacity 500ms ease-in;
+    transition: opacity 500ms ease-in;
+    pointer-events: none;
+}
+.modalDialog:target {
+    opacity: 1;
+    pointer-events: auto;
+}
+.modalDialog div {
+    width: 80vw;
+    position: relative;
+    margin: 10% auto;
+    padding: 20px 10px;
+    border-radius: 5px;
+    background: #2B2B2B;
+}
+.close {
+    position: absolute;
+    right: 5px;
+    top: 5px;
+    width: 10px;
+}
+.github {
+    height: 50px;
+}
+.info_icon {
+    height: 19px;
+    margin-top: 22px;
+}
+.screenshot {
+    width: 150px;
+}
+/* Contact */
+
+.contact {
+    background-color: #610054;
+}
+.contact img {
+    margin: 20spx;
+    height: 30px;
+}
+/* Nav Bar */
+
+.top_nav {
+    position: fixed;
+    top: 0;
+    height: 41px;
+    width: 100%;
+    background-color: #2b2b2b;
+    overflow: hidden;
+    -webkit-box-shadow: 0px 8px 20px -5px #000000;
+    -moz-box-shadow: 0px 8px 20px -5px #000000;
+    box-shadow: 0px 8px 20px -5px #000000;
+}
 .top_nav img {
-  margin: 45px 45px;
-  height: 40px;
-  float: right;
-  display: inline-flex;
-  text-decoration: none;
-  color: white;
-  font-size: 30px;
+    margin: 14px 14.3px;
+    height: 13.2px;
+    float: right;
+    display: inline-flex;
+    text-decoration: none;
+    color: white;
+}
+/*--------------*/
+/* Tablet rules */
+@media screen and (min-width: 750px) {
+  /* Nav Bar */
+
+    .top_nav img {
+      margin: 30px 30px;
+      height: 30px;
+    }
+    .top_nav {
+        height: 90px;
+        -webkit-box-shadow: 0px 15px 60px -15px #000000;
+        -moz-box-shadow: 0px 15px 60px -15px #000000;
+        box-shadow: 0px 15px 60px -15px #000000;
+    }
+    h1 {
+        font-size: 60px;
+        margin-bottom: 80px;
+    }
+    p {
+        font-size: 25px;
+    }
+    h3 {
+        font-size: 25px;
+    }
+    hr {
+        margin: 40px 0;
+        opacity: 0.2;
+    }
+    ul {
+        padding: 0 20px;
+    }
+  /* Splash */
+
+    .logo {
+      width: 400px;
+    }
+  /* About Me */
+
+    .profile_photo {
+        width: 300px;
+        margin-bottom: 80px;
+        border: 4px solid white;
+    }
+    .languages img {
+        margin: 45px 25px;
+        height: 70px;
+    }
+  /* Employment History */
+
+    .employment_history img {
+        height: 80px;
+        -webkit-box-shadow: 0px 15px 60px -15px #000000;
+        -moz-box-shadow: 0px 15px 60px -15px #000000;
+        box-shadow: 0px 15px 60px -15px #000000;
+    }
+  /* Educational History */
+
+    .educational_history img {
+        height: 180px;
+        -webkit-box-shadow: 0px 15px 60px -15px #000000;
+        -moz-box-shadow: 0px 15px 60px -15px #000000;
+        box-shadow: 0px 15px 60px -15px #000000;
+    }
+  /* Work */
+
+    .screenshot {
+      width: 300px;
+    }
+    .info_icon {
+        height: 50px;
+        margin-top: 50px;
+    }
+    .modalDialog div {
+        width: 80vw;
+        padding: 50px;
+    }
+    .close {
+        position: absolute;
+        right: 24px;
+        top: 18px;
+        width: 30px;
+    }
+  /* Contact */
+
+    .contact img {
+        margin: 20px;
+        height: 44px;
+    }
+  }
+}
+/*--------------------------*/
+/* Desktop HD Monitor rules */
+
+@media screen and (min-width: 1080px) {
+    /* Nav Bar */
+
+    .top_nav img {
+        margin: 30px 30px;
+        height: 30px;
+    }
+    .top_nav {
+        height: 90px;
+        -webkit-box-shadow: 0px 15px 60px -15px #000000;
+        -moz-box-shadow: 0px 15px 60px -15px #000000;
+        box-shadow: 0px 15px 60px -15px #000000;
+    }
+    section {
+        min-height: 100%;
+    }
+    .wrapper {
+        margin: 7% 10%;
+    }
+    .splash {
+        min-height: 100vh;
+    }
+    h1 {
+        font-size: 50px;
+        margin-bottom: 50px;
+    }
+    p {
+        font-size: 18px;
+    }
+    h3 {
+        font-size: 18px;
+    }
+    hr {
+        margin: 40px 0;
+        opacity: 0.2;
+    }
+    ul {
+        padding: 0 20px;
+    }
+    /* Splash */
+
+    .logo {
+        width: 300px;
+    }
+    /* About Me */
+
+    .about_me {
+        text-align: justify;
+    }
+    .about_me h3 {
+        text-align: left;
+    }
+    .about_me h1 {
+        text-align: center;
+    }
+    .profile_photo {
+        width: 300px;
+        margin: 0% 8% 24% 5%;
+        border: 4px solid white;
+        float: left;
+    }
+    .languages {
+        text-align: left;
+    }
+    .languages img {
+        margin: 30px 30px 50px 0px;
+        height: 70px;
+        padding: 0;
+    }
+    /* Employment History */
+
+    .standards_and_principles p {
+        text-align: center;
+    }
+    /* Employment History */
+
+    .employment_history h3,
+    p {
+        text-align: left;
+        /* Justify footer position */
+    }
+    .employment_history img {
+        float: left;
+        height: 60px;
+        margin-bottom: 70px;
+        margin-right: 70px;
+    }
+    /* Educational History */
+
+    .educational_history img {
+        height: 150px;
+        margin-top: 0;
+        -webkit-box-shadow: 0px 15px 60px -15px #000000;
+        -moz-box-shadow: 0px 15px 60px -15px #000000;
+        box-shadow: 0px 15px 60px -15px #000000;
+    }
+    .educational_history h3 {
+        text-align: center;
+    }
+    .study_wrapper {
+        float: left;
+        display: inline-block;
+        margin-top: 20px;
+        margin-bottom: 40px;
+    }
+    .study_summary p,
+    h3 {
+        text-align: center;
+    }
+    .study_summary {
+        float: left;
+        margin-right: 60px;
+        margin-bottom: 20px;
+    }
+    /* Work */
+
+    .work p,
+    h3 {
+        margin-top: 30px;
+        text-align: justify;
+    }
+    .work_wrapper {
+        display: inline-block;
+    }
+    .screenshot {
+        float: left;
+        width: 400px;
+    }
+    .info_icon {
+        height: 25px;
+    }
+    .modalDialog div {
+        width: 80vw;
+        padding: 50px;
+    }
+    .modal_contents img {
+        float: none;
+    }
+    .modal_contents p,
+    h3 {
+        text-align: center;
+        margin: 0;
+    }
+    .close {
+        position: absolute;
+        right: 24px;
+        top: 18px;
+        width: 30px;
+    }
+    /* Contact */
+
+    .contact p {
+        text-align: center;
+        margin: 0px;
+    }
+    .contact img {
+        margin: 25px;
+        height: 30px;
+    }
 }
