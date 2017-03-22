@@ -231,6 +231,7 @@ section {
 }
 /*--------------*/
 /* Tablet rules */
+
 @media screen and (min-width: 750px) {
   /* Nav Bar */
 
@@ -269,7 +270,7 @@ section {
   /* About Me */
 
     .profile_photo {
-        width: 300px;
+        width: 260px;
         margin-bottom: 80px;
         border: 4px solid white;
     }
@@ -319,7 +320,6 @@ section {
         height: 44px;
     }
   }
-}
 /*--------------------------*/
 /* Desktop HD Monitor rules */
 
