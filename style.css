@@ -176,14 +176,14 @@ section {
     pointer-events: auto;
 }
 .modalDialog div {
-    max-height: 80vh;
+    max-height: 60vh;
     overflow-y: scroll;
-    width: 90vw;
+    width: 80vw;
     position: relative;
     margin: 5% auto;
     padding: 20px 10px;
     border-radius: 5px;
-    background: rgba(123, 123, 123, 0.9);
+    background: rgba(43,43,43, 0.9);
 }
 .close {
     position: absolute;
