@@ -151,8 +151,8 @@ section {
 /* Work */
 
 .work {
-  background: url("/images/backgrounds/work_bg.png") no-repeat center center fixed;
-  background-size: cover;
+    background: url("/images/backgrounds/work_bg.png") no-repeat center center fixed;
+    background-size: cover;
 }
 /* Modal */
 

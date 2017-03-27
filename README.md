@@ -36,7 +36,7 @@ I have added a gallery of my current work, and listed my previous employment and
 Ideally, the experience subliminally displays a glimpse of my professional and casual personality.
 
 ## Wireframes & Mockups ##
-Created with Figma. [(more...)](https://www.figma.com/file/Shpy9LmoapwLieKblyRAZdna/Slack-Submission)
+Created with Figma [(more...)](https://www.figma.com/file/Shpy9LmoapwLieKblyRAZdna/Slack-Submission)
 
 ### Initial draft ###
 After wireframing the first draft, I came across a few shortfalls:
@@ -82,3 +82,6 @@ These screenshots were taken before any larger responsive design was implemented
 
 ## Style Guide ##
 ![Style Guide](https://github.com/alfredosorio/alfredosorio.github.io/blob/master/development/Style_Guide.png)
+
+## Development ##
+![Trello](https://trello.com/b/NmbcjbCz/my-portfolio)
