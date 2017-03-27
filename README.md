@@ -1,4 +1,4 @@
-The website can be viewed [here](https://alfredosorio.github.io/)
+My Portfolio can be viewed [here](https://alfredosorio.github.io/)
 
 ## Synopsis
 My Portfolio is a website used to showcase my personality, skills and experience for prospective employers.
