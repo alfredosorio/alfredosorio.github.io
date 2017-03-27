@@ -38,12 +38,47 @@ Ideally, the experience subliminally displays a glimpse of my professional and c
 ## Wireframes & Mockups ##
 Created with Figma. [(more...)](https://www.figma.com/file/Shpy9LmoapwLieKblyRAZdna/Slack-Submission)
 
-### Mobile Tests ###
+### Initial draft ###
 ![Figma Mockup](https://github.com/alfredosorio/alfredosorio.github.io/blob/master/development/Figma%201A.png)
+![Figma Mockup](https://github.com/alfredosorio/alfredosorio.github.io/blob/master/development/Figma%202A.png)
 
+### Shortfalls ###
+* Difficult converting to responsive design.
+* Layout did not accommodate enough room, and is inflexible with the content.
+* Would be more suitable for a desktop resolution.
+
+### Final draft ###
+After realising the challenges of the previous design, the following was developed. It started with a mobile first approach and made responsive adaptability much easier.
+
+#### Splash Page & Logo Mockups ####
+![Figma Mockup](https://github.com/alfredosorio/alfredosorio.github.io/blob/master/development/Figma%201B.png)
+
+#### About Me Page ####
+![Figma Mockup](https://github.com/alfredosorio/alfredosorio.github.io/blob/master/development/Figma%202B.png)
+
+#### Work Page ####
+![Figma Mockup](https://github.com/alfredosorio/alfredosorio.github.io/blob/master/development/Figma%203B.png)
+
+#### Contact Page ####
+![Figma Mockup](https://github.com/alfredosorio/alfredosorio.github.io/blob/master/development/Figma%204B.png)
+
+### Improvements ###
+* Reflects minimalist approach
+* More solid and modern experience
+* Easier and more effective with responsive design
+
+### Mobile Tests ###
+These screenshots were taken before any larger responsive design was implemented. *Google Chrome Developer Tools, iPhone 5 (320x568)*
+![Mobile](https://github.com/alfredosorio/alfredosorio.github.io/blob/master/development/mobile/Screen%20Shot%202017-03-22%20at%2019.02.57.png)
+![Mobile](https://github.com/alfredosorio/alfredosorio.github.io/blob/master/development/mobile/Screen%20Shot%202017-03-22%20at%2019.03.30.png)
+![Mobile](https://github.com/alfredosorio/alfredosorio.github.io/blob/master/development/mobile/Screen%20Shot%202017-03-22%20at%2019.42.02.png)
+![Mobile](https://github.com/alfredosorio/alfredosorio.github.io/blob/master/development/mobile/Screen%20Shot%202017-03-22%20at%2019.42.24.png)
+![Mobile](https://github.com/alfredosorio/alfredosorio.github.io/blob/master/development/mobile/Screen%20Shot%202017-03-22%20at%2019.42.43.png)
+![Mobile](https://github.com/alfredosorio/alfredosorio.github.io/blob/master/development/mobile/Screen%20Shot%202017-03-22%20at%2019.42.56.png)
+![Mobile](https://github.com/alfredosorio/alfredosorio.github.io/blob/master/development/mobile/Screen%20Shot%202017-03-22%20at%2019.43.03.png)
 
 ## Style Guide ##
-
+![Style Guide](https://github.com/alfredosorio/alfredosorio.github.io/blob/master/development/Style_Guide.png)
 
 
 # TBC #
