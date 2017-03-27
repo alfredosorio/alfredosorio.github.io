@@ -84,4 +84,4 @@ These screenshots were taken before any larger responsive design was implemented
 ![Style Guide](https://github.com/alfredosorio/alfredosorio.github.io/blob/master/development/Style_Guide.png)
 
 ## Development ##
-![Trello](https://trello.com/b/NmbcjbCz/my-portfolio)
+Please see my [Trello](https://trello.com/b/NmbcjbCz/my-portfolio) board for a comprehensive and complete view of the development process.
