@@ -1,12 +1,8 @@
 ## Synopsis
 My Portfolio is a website used to showcase my personality, skills and experience for prospective employers.
 
-- - - -
-
 ## Motivation
 Delivered by Coderfactory Academy, this project was used to apply skills and techniques covering HTML, CSS and heuristic evaluation.
-
-- - - -
 
 ## Target Demographic & Conveyance
 The target audience for 'My Portfolio' will be for potential clients and businesses seeking a full stack developer. Throughout the website, I communicate to the audience that I can deliver a high-quality service, and have a modern, casual, functional approach through the design of the website.
@@ -32,8 +28,6 @@ Ensure the language used is grammatically perfect and concise. The HTML/CSS code
 #### Friendly and approachable, not too intimidating ####
 Include sans-serif fonts and casual phrases in the design to deter users from thinking the site is too formal. Large pictures and images will also deliver a relaxed and interpersonal experience. On the Contacts page (last page), leave a line/phrase that encourages the user to engage and remember the website.
 
-- - - -
-
 ### Design/Inspiration ###
 From a visual perspective, a simple, flat look will be implemented. Include Sans-Serif fonts, short and casual paragraphs and sentences. Lines and strokes will be used to 'enhance' an element i.e.: the floating navbar or stroke on personal profile picture.
 
@@ -42,9 +36,10 @@ I have added a gallery of my current work, and listed my previous employment and
 Ideally, the experience subliminally displays a glimpse of my professional and casual personality.
 
 ## Wireframes & Mockups ##
-Created with Figma. [More...](https://www.figma.com/file/Shpy9LmoapwLieKblyRAZdna/Slack-Submission)
+Created with Figma. [(more...)](https://www.figma.com/file/Shpy9LmoapwLieKblyRAZdna/Slack-Submission)
 
 ### Mobile Tests ###
+https://github.com/alfredosorio/alfredosorio.github.io/blob/master/development/Figma%201A.png
 
 
 ## Style Guide ##
