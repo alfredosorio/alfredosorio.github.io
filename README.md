@@ -71,6 +71,12 @@ After realising the challenges of the initial design, I created a new layout tha
 * More solid and modern experience
 * Easier and more effective with responsive design
 
+## Style Guide ##
+![Style Guide](https://github.com/alfredosorio/alfredosorio.github.io/blob/master/development/Style_Guide.png)
+
+## Live Development ##
+Please see my [Trello](https://trello.com/b/NmbcjbCz/my-portfolio) board for a comprehensive and complete view of the development process.
+
 ### Mobile Tests ###
 These screenshots were taken before any larger responsive design was implemented.  
 *Google Chrome Developer Tools, iPhone 5 (320x568)*  
@@ -82,8 +88,7 @@ These screenshots were taken before any larger responsive design was implemented
 ![Mobile](https://github.com/alfredosorio/alfredosorio.github.io/blob/master/development/mobile/Screen%20Shot%202017-03-22%20at%2019.42.56.png)
 ![Mobile](https://github.com/alfredosorio/alfredosorio.github.io/blob/master/development/mobile/Screen%20Shot%202017-03-22%20at%2019.43.03.png)
 
-## Style Guide ##
-![Style Guide](https://github.com/alfredosorio/alfredosorio.github.io/blob/master/development/Style_Guide.png)
+## Challenges and Project Review ##
+After completing the overall website, I found that the biggest challenge was implementing responsive design throughout all mobile, tablet and PC devices - ensuring all elements were positioned correctly took the most time. One of the most important aspects to note was not to compromise any of the content if I found the design wasn't working.
 
-## Development ##
-Please see my [Trello](https://trello.com/b/NmbcjbCz/my-portfolio) board for a comprehensive and complete view of the development process.
+I am coming out of this task as a much stronger and confident front-end developer, and have a deep appreciation particularly for the development stages of the project. I found that the more attention to detail given to research and planning made the execution of the project more strategic, seamless and more inline to the project requirements. It is also just as important to consider users' feedback rather than depending on my own opinion each step of the way.
