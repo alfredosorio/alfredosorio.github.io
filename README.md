@@ -71,7 +71,7 @@ After realising the challenges of the initial design, I created a new layout tha
 
 ### Mobile Tests ###
 These screenshots were taken before any larger responsive design was implemented.  
-*Google Chrome Developer Tools, iPhone 5 (320x568)*
+*Google Chrome Developer Tools, iPhone 5 (320x568)*  
 ![Mobile](https://github.com/alfredosorio/alfredosorio.github.io/blob/master/development/mobile/Screen%20Shot%202017-03-22%20at%2019.02.57.png)
 ![Mobile](https://github.com/alfredosorio/alfredosorio.github.io/blob/master/development/mobile/Screen%20Shot%202017-03-22%20at%2019.03.30.png)
 ![Mobile](https://github.com/alfredosorio/alfredosorio.github.io/blob/master/development/mobile/Screen%20Shot%202017-03-22%20at%2019.42.02.png)
