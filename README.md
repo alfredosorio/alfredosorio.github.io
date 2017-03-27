@@ -39,7 +39,7 @@ Ideally, the experience subliminally displays a glimpse of my professional and c
 Created with Figma. [(more...)](https://www.figma.com/file/Shpy9LmoapwLieKblyRAZdna/Slack-Submission)
 
 ### Mobile Tests ###
-https://github.com/alfredosorio/alfredosorio.github.io/blob/master/development/Figma%201A.png
+![Figma Mockup](https://github.com/alfredosorio/alfredosorio.github.io/blob/master/development/Figma%201A.png)
 
 
 ## Style Guide ##
