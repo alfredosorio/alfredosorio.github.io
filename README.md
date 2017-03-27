@@ -41,8 +41,14 @@ From a visual perspective, a simple, flat look will be implemented. Include Sans
 I have added a gallery of my current work, and listed my previous employment and educational history to justify my current skill set. These will be updated as I continue creating and developing my skills throughout the course.
 Ideally, the experience subliminally displays a glimpse of my professional and casual personality.
 
-## Mockups
+## Wireframes & Mockups ##
 Created with Figma. [More...](https://www.figma.com/file/Shpy9LmoapwLieKblyRAZdna/Slack-Submission)
 
+### Mobile Tests ###
 
-## Challenges
+
+## Style Guide ##
+
+
+
+# TBC #
