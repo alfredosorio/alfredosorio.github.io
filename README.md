@@ -39,18 +39,18 @@ Ideally, the experience subliminally displays a glimpse of my professional and c
 Created with Figma. [(more...)](https://www.figma.com/file/Shpy9LmoapwLieKblyRAZdna/Slack-Submission)
 
 ### Initial draft ###
-![Figma Mockup](https://github.com/alfredosorio/alfredosorio.github.io/blob/master/development/Figma%201A.png)
-![Figma Mockup](https://github.com/alfredosorio/alfredosorio.github.io/blob/master/development/Figma%202A.png)
-
-#### Shortfalls ####
+After wireframing the first draft, I came across a few shortfalls:
 * Difficult converting to responsive design.
 * Layout did not accommodate enough room, and is inflexible with the content.
 * Would be more suitable for a desktop resolution.
 
+![Figma Mockup](https://github.com/alfredosorio/alfredosorio.github.io/blob/master/development/Figma%201A.png)
+![Figma Mockup](https://github.com/alfredosorio/alfredosorio.github.io/blob/master/development/Figma%202A.png)
+
 - - - -
 
 ### Final draft ###
-After realising the challenges of the previous design, the following was developed. It started with a mobile first approach and made responsive adaptability much easier.
+After realising the challenges of the initial design, I created a new layout that was more inline with the written requirements. It started with a mobile first approach and made responsive adaptability much easier.
 
 #### Splash Page & Logo Mockups ####
 ![Figma Mockup](https://github.com/alfredosorio/alfredosorio.github.io/blob/master/development/Figma%201B.png)
@@ -70,7 +70,7 @@ After realising the challenges of the previous design, the following was develop
 * Easier and more effective with responsive design
 
 ### Mobile Tests ###
-These screenshots were taken before any larger responsive design was implemented.
+These screenshots were taken before any larger responsive design was implemented.  
 *Google Chrome Developer Tools, iPhone 5 (320x568)*
 ![Mobile](https://github.com/alfredosorio/alfredosorio.github.io/blob/master/development/mobile/Screen%20Shot%202017-03-22%20at%2019.02.57.png)
 ![Mobile](https://github.com/alfredosorio/alfredosorio.github.io/blob/master/development/mobile/Screen%20Shot%202017-03-22%20at%2019.03.30.png)
@@ -82,6 +82,3 @@ These screenshots were taken before any larger responsive design was implemented
 
 ## Style Guide ##
 ![Style Guide](https://github.com/alfredosorio/alfredosorio.github.io/blob/master/development/Style_Guide.png)
-
-
-# TBC #
